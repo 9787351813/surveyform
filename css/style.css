@@ -1,0 +1,36 @@
+*{
+    margin: 2px;
+}
+.required::after{
+    content:"*";
+    color:red;
+    
+    
+}
+.stars i{
+   color: orange;
+    gap: 30px;
+    padding: 5px;
+
+}
+td {
+    width: 20%;
+    padding: 5px;
+    margin: 10px;
+  }
+  .comment textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 18px;
+  }
+  button{
+    padding: 5px;
+    border-radius: 2px;
+  }
+td radio{
+    padding: 10px;
+}
+
